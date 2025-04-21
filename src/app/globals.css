@@ -110,7 +110,31 @@ a {
   text-decoration: none;
 }
 
+p {
+  color: var(--color-text-muted);
+}
+
 html {
   font-family: Vazirmatn, system-ui;
   font-feature-settings: "ss01";
+
+  scroll-behavior: smooth;
+  accent-color: var(--color-primary);
+  caret-color: var(--color-primary);
+}
+
+body {
+  background-color: var(--color-surface);
+  color: var(--color-text);
+
+  padding-inline: var(--full-width-padding-inline);
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+  min-block-size: 100vh;
+  min-block-size: 100dvh;
+
+  transition: var(--animation-duration-slow) ease-in-out;
+  transition-property: background-color, color;
 }

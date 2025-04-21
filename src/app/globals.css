@@ -43,3 +43,8 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
+html {
+  font-family: Vazirmatn, system-ui;
+  font-feature-settings: "ss01";
+}

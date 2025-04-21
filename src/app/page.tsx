@@ -1,11 +1,7 @@
-import {ReactElement} from "react";
+import { ReactElement } from "react";
 
 import styles from "./page.module.css";
 
-export default function Home() : ReactElement {
-  return (
-    <div className={styles.home}>
-      hello world!
-    </div>
-  );
+export default function Home(): ReactElement {
+  return <div className={styles.home}>hello world!</div>;
 }

@@ -1,10 +1,14 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import type { Metadata, Viewport } from "next";
 import "../styles/typography.css";
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: "منوی سلف دانشگاه آزاد اسلامی واحد لاهیجان",
   description: "منوی آنلاین کافه و رستوران سلف دانشگاه آزاد لاهیجان",
+};
+
+export const viewport: Viewport = {
+  themeColor: "#0369A1FF",
 };
 
 export default function RootLayout({
@@ -21,7 +25,11 @@ export default function RootLayout({
           type="text/css"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <header>header</header>
+        <main>{children}</main>
+        <footer>footer</footer>
+      </body>
     </html>
   );
 }

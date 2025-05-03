@@ -25,7 +25,7 @@
 
   --my-color-primary-opposite-sf: var(--my-color-slate-50-sf);
 
-  --my-color-surface-sf: hsl(210 30% 97%);
+  --my-color-surface-sf: hsl(210 20% 97%);
   --my-color-surface-white-sf: hsl(210 60% 99%);
   --my-color-surface-muted-sf: var(--my-color-slate-200-sf);
 

@@ -15,7 +15,7 @@
   scrollbar-width: none; /* Firefox */
 
   .container {
-    border: 1px solid var(--my-color-slate-200-sf);
+    border: 1px solid var(--my-color-slate-300-sf);
     border-radius: 50%;
 
     padding: 0.5rem;
@@ -28,7 +28,7 @@
       inline-size: clamp(4.75rem, 4.125rem + 3.125vw, 6rem);
       block-size: clamp(4.75rem, 4.125rem + 3.125vw, 6rem);
 
-      background-color: var(--my-color-slate-200-sf);
+      background-color: var(--my-color-slate-300-sf);
 
       border-radius: 50%;
 
@@ -52,10 +52,10 @@
     }
 
     &.active {
-      border: 1px solid var(--my-color-slate-600-sf);
+      border-color: var(--my-color-primary-600-sf);
 
       .menu {
-        background-color: var(--my-color-slate-600-sf);
+        background-color: var(--my-color-primary-600-sf);
         color: var(--my-color-primary-opposite-sf);
       }
     }

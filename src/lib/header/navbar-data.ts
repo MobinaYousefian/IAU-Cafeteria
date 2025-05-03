@@ -1,14 +1,14 @@
 import { MYSFNavbarData } from "@/lib/header/navbar-data.type";
 
 import mysfEgg from "@/assest/navbar/mysfegg.png";
-import mysfSoup from "@/assest/navbar/mysfsoup.png";
+import mysfSalad from "@/assest/navbar/mysfsalad.png";
 import mysfPizza from "@/assest/navbar/mysfpizza.png";
 import mysfSandwich from "@/assest/navbar/mysfsandwich.png";
 import mysfKebab from "@/assest/navbar/mysfkebab.png";
 import mysfCoffee from "@/assest/navbar/mysfcoffee.png";
 import mysfTea from "@/assest/navbar/mysftea.png";
 import mysfSmoothie from "@/assest/navbar/mysfsmoothie.png";
-import mysfMilkshake from "@/assest/navbar/mysfmilkshake.png";
+import mysfHotDrink from "@/assest/navbar/mysfhot-drink.png";
 import mysfDonut from "@/assest/navbar/mysfdonut.png";
 
 export const MY_NAVBAR_DATA_SF: MYSFNavbarData[] = [
@@ -18,9 +18,9 @@ export const MY_NAVBAR_DATA_SF: MYSFNavbarData[] = [
     icon: mysfEgg,
   },
   {
-    url: "/soup",
-    label: "آش",
-    icon: mysfSoup,
+    url: "/salad",
+    label: "سالاد",
+    icon: mysfSalad,
   },
   {
     url: "/pizza",
@@ -48,14 +48,14 @@ export const MY_NAVBAR_DATA_SF: MYSFNavbarData[] = [
     icon: mysfTea,
   },
   {
-    url: "/smoothie",
+    url: "/cold-drink",
     label: "بار سرد",
     icon: mysfSmoothie,
   },
   {
-    url: "/milkshake",
-    label: "میلک‌شیک",
-    icon: mysfMilkshake,
+    url: "/Hot-drink",
+    label: "بار گرم",
+    icon: mysfHotDrink,
   },
   {
     url: "/cake",

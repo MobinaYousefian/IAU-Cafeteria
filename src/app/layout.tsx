@@ -1,6 +1,11 @@
 import type { Metadata, Viewport } from "next";
+
 import "../styles/typography.css";
 import "./globals.css";
+
+import MyHeaderSfComponent from "@/components/my-header-sf/my-header-sf.component";
+import MyNavbarSfComponent from "@/components/my-navbar-sf/my-navbar-sf.component";
+import MyFooterSfComponent from "@/components/my-footer-sf/my-footer-sf.component";
 
 export const metadata: Metadata = {
   title: "منوی سلف دانشگاه آزاد اسلامی واحد لاهیجان",
@@ -26,9 +31,10 @@ export default function RootLayout({
         />
       </head>
       <body>
-        <header>header</header>
+        <MyHeaderSfComponent />
+        <MyNavbarSfComponent />
         <main>{children}</main>
-        <footer>footer</footer>
+        <MyFooterSfComponent />
       </body>
     </html>
   );

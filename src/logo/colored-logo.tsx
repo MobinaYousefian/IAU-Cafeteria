@@ -7,8 +7,8 @@ export default function ColoredLogo(
     <svg
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
-      width="5em"
-      height="5em"
+      width="3em"
+      height="3em"
       viewBox="0 0 385 475"
       preserveAspectRatio="xMidYMid meet"
       {...props}

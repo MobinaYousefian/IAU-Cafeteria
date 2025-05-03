@@ -1,0 +1,28 @@
+.my-footer-sf {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  gap: 1rem;
+
+  background-color: var(--my-color-slate-700-sf);
+  color: var(--my-color-slate-50-sf);
+
+  padding: 1rem;
+
+  .links {
+    font-size: var(--my-fz-300-sf);
+  }
+
+  .copyright {
+    font-size: var(--my-fz-200-sf);
+
+    > a {
+      text-decoration: underline;
+
+      &:hover {
+        color: var(--my-color-primary-300-sf);
+      }
+    }
+  }
+}

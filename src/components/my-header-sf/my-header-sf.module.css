@@ -1,0 +1,25 @@
+.my-header-sf {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background-color: var(--my-color-surface-white-sf);
+  box-shadow: var(--my-shadow-400-sf);
+
+  padding-block: 1rem;
+
+  .logotype {
+    font-size: var(--my-fz-500-sf);
+    font-weight: 500;
+  }
+
+  .lau-logo {
+    block-size: 0;
+    min-block-size: 100%;
+
+    > img {
+      block-size: 100%;
+      inline-size: 100%;
+    }
+  }
+}

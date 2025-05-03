@@ -1,5 +1,5 @@
 "use client";
-import { ReactElement } from "react";
+import { ReactElement, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
@@ -12,9 +12,24 @@ import styles from "./my-navbar-sf.module.css";
 
 export default function MyNavbarSfComponent(): ReactElement {
   const pathname = usePathname();
+  const [scrolling, setScrolling] = useState<boolean>(false);
+
+  useEffect(() => {
+    const myListenScrollSf = () => {
+      if (window.scrollY > 50) {
+        setScrolling(true);
+      } else {
+        setScrolling(false);
+      }
+    };
+
+    window.addEventListener("scroll", myListenScrollSf);
+
+    return () => window.removeEventListener("scroll", myListenScrollSf);
+  }, []);
 
   return (
-    <nav className={styles["my-navbar-sf"]}>
+    <nav className={clsx(styles["my-navbar-sf"], scrolling && styles.scrolled)}>
       {MY_NAVBAR_DATA_SF.map(({ url, label, icon }) => (
         <Link href={url} key={url}>
           <div

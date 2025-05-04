@@ -1,0 +1,30 @@
+.my-food-section-sf {
+  margin-block-end: 3rem;
+
+  scroll-margin-block-start: calc(
+    4rem + clamp(4.75rem, 4.125rem + 3.125vw, 6rem)
+  );
+
+  .heading {
+    color: var(--my-color-slate-700-sf);
+
+    font-size: var(--my-fz-600-sf);
+    text-align: center;
+
+    margin-block-end: 1rem;
+  }
+
+  .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+    gap: 1.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .my-food-section-sf {
+    .heading {
+      text-align: right;
+    }
+  }
+}

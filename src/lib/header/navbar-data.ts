@@ -13,52 +13,52 @@ import mysfDonut from "@/assest/navbar/mysfdonut.png";
 
 export const MY_NAVBAR_DATA_SF: MYSFNavbarData[] = [
   {
-    url: "/breakfast",
+    url: "breakfast",
     label: "صبحانه",
     icon: mysfEgg,
   },
   {
-    url: "/salad",
+    url: "salad",
     label: "سالاد",
     icon: mysfSalad,
   },
   {
-    url: "/pizza",
+    url: "pizza",
     label: "پیتزا",
     icon: mysfPizza,
   },
   {
-    url: "/sandwich",
+    url: "fastfood",
     label: "فست‌فود",
     icon: mysfSandwich,
   },
   {
-    url: "/irani",
+    url: "irani",
     label: "ایرانی",
     icon: mysfKebab,
   },
   {
-    url: "/coffee",
+    url: "coffee",
     label: "قهوه",
     icon: mysfCoffee,
   },
   {
-    url: "/tea",
+    url: "herbal-tea",
     label: "دمنوش",
     icon: mysfTea,
   },
   {
-    url: "/cold-drink",
+    url: "cold-bar",
     label: "بار سرد",
     icon: mysfSmoothie,
   },
   {
-    url: "/Hot-drink",
+    url: "hot-bar",
     label: "بار گرم",
     icon: mysfHotDrink,
   },
   {
-    url: "/cake",
+    url: "cake",
     label: "کیک",
     icon: mysfDonut,
   },

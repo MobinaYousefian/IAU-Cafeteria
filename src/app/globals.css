@@ -115,7 +115,7 @@ a {
 }
 
 p {
-  color: var(--my-color-text-muted-sf);
+  color: var(--my-color-slate-500-sf);
 }
 
 html {
@@ -141,7 +141,4 @@ body {
 
   min-block-size: 100vh;
   min-block-size: 100dvh;
-
-  transition: var(--my-animation-duration-slow-sf) ease-in-out;
-  transition-property: background-color, color;
 }

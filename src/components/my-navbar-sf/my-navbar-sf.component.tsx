@@ -2,7 +2,6 @@
 import { ReactElement, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 import clsx from "clsx";
 
@@ -11,8 +10,10 @@ import { MY_NAVBAR_DATA_SF } from "@/lib/header/navbar-data";
 import styles from "./my-navbar-sf.module.css";
 
 export default function MyNavbarSfComponent(): ReactElement {
-  const pathname = usePathname();
   const [scrolling, setScrolling] = useState<boolean>(false);
+  const [activeSection, setActiveSection] = useState<string>("");
+
+  const sections = MY_NAVBAR_DATA_SF.map(({ url }) => url);
 
   useEffect(() => {
     const myListenScrollSf = () => {
@@ -25,17 +26,38 @@ export default function MyNavbarSfComponent(): ReactElement {
 
     window.addEventListener("scroll", myListenScrollSf);
 
-    return () => window.removeEventListener("scroll", myListenScrollSf);
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries.find((entry) => entry.isIntersecting);
+        if (visible) {
+          setActiveSection(visible.target.id);
+        }
+      },
+      {
+        root: null,
+        threshold: 0.2,
+      },
+    );
+
+    sections.forEach((id) => {
+      const el = document.getElementById(id);
+      if (el) observer.observe(el);
+    });
+
+    return () => {
+      window.removeEventListener("scroll", myListenScrollSf);
+      observer.disconnect();
+    };
   }, []);
 
   return (
     <nav className={clsx(styles["my-navbar-sf"], scrolling && styles.scrolled)}>
       {MY_NAVBAR_DATA_SF.map(({ url, label, icon }) => (
-        <Link href={url} key={url}>
+        <Link href={"#" + url} key={url}>
           <div
             className={clsx(
               styles.container,
-              pathname === url && styles.active,
+              activeSection === url && styles.active,
             )}
           >
             <div className={styles.menu}>

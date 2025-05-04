@@ -7,13 +7,13 @@
 
   overflow-x: auto;
 
-  position: sticky;
-  inset-block-start: 0;
-
   transition-property: all;
   transition: var(--my-animation-duration-normal-sf) ease-in-out;
 
   &.scrolled {
+    position: sticky;
+    inset-block-start: 0;
+
     background-color: var(--my-color-surface-white-sf);
     box-shadow: var(--my-shadow-500-sf);
 

@@ -13,5 +13,6 @@ export type MyFoodDataSf = {
   price: number;
   studentPrice?: number;
   ingredients: string[];
+  stats: "available" | "sold";
   discountPercent?: number;
 };

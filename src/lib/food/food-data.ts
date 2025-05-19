@@ -67,6 +67,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfOmelette,
         label: "املت",
         ingredients: ["تخم‌مرغ", "سس گوجه‌فرنگی", "جعفری ساطوری"],
+        stats: "available",
         price: 60,
       },
       {
@@ -74,6 +75,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfFriedEgg,
         label: "نیمرو",
         ingredients: ["تخم‌مرغ", "جعفری ساطوری"],
+        stats: "available",
         price: 55,
       },
       {
@@ -81,6 +83,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfSausageEgg,
         label: "کوکتل تخم‌مرغ",
         ingredients: ["تخم‌مرغ", "سوسیس کوکتل"],
+        stats: "available",
         price: 70,
       },
       {
@@ -88,6 +91,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfOmelettePiron,
         label: "املت پیرون",
         ingredients: ["سس گوجه‌فرنگی", "تخم‌مرغ", "قارچ", "برگ ریحان"],
+        stats: "available",
         price: 75,
       },
       {
@@ -95,6 +99,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfAdasi,
         label: "عدسی",
         ingredients: ["عدس پخته‌شده", "سس گوجه‌فرنگی", "آبلیمو یا نارنج"],
+        stats: "sold",
         price: 55,
       },
       {
@@ -102,6 +107,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfShapoori,
         label: "شاپوری",
         ingredients: ["تخم‌مرغ", "سس گوجه‌فرنگی", "لوبیا پخته‌شده"],
+        stats: "available",
         price: 70,
       },
       {
@@ -116,6 +122,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "پیاز سرخ‌شده",
           "نعنا سرخ‌شده",
         ],
+        stats: "sold",
         price: 55,
       },
       {
@@ -123,6 +130,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfLobia,
         label: "لوبیا",
         ingredients: ["خوراک لوبیا"],
+        stats: "available",
         price: 55,
       },
     ],
@@ -143,6 +151,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "خیارشور",
           "سس مایونز",
         ],
+        stats: "available",
         price: 75,
       },
     ],
@@ -164,6 +173,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "قارچ",
           "پنیر",
         ],
+        stats: "available",
         price: 110,
       },
       {
@@ -179,6 +189,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "قارچ",
           "پنیر",
         ],
+        stats: "available",
         price: 130,
       },
       {
@@ -195,6 +206,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "قارچ",
           "پنیر کم‌چرب",
         ],
+        stats: "available",
         price: 100,
       },
       {
@@ -209,6 +221,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "قارچ",
           "پنیر",
         ],
+        stats: "available",
         price: 150,
       },
     ],
@@ -229,6 +242,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "کاهو",
           "پنیر چدار",
         ],
+        stats: "available",
         price: 70,
       },
       {
@@ -244,6 +258,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "پیاز کاراملی",
           "پنیر چدار",
         ],
+        stats: "available",
         price: 80,
       },
       {
@@ -259,6 +274,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "پنیر چدار",
           "سس پنیر و قارچ",
         ],
+        stats: "available",
         price: 85,
       },
       {
@@ -274,6 +290,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "پنیر چدار",
           "میکس پنیر",
         ],
+        stats: "available",
         price: 90,
       },
       {
@@ -288,6 +305,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "کاهو",
           "پنیر چدار (2 لایه)",
         ],
+        stats: "sold",
         price: 110,
       },
       {
@@ -295,6 +313,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfHotDog,
         label: "هات داگ",
         ingredients: ["هات داگ سرخ‌شده", "سس خردل", "سس گوجه‌فرنگی"],
+        stats: "available",
         price: 75,
       },
       {
@@ -307,6 +326,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "سس گوجه‌فرنگی",
           "سس قارچ و پنیر",
         ],
+        stats: "available",
         price: 90,
       },
       {
@@ -321,6 +341,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "کلم و جعفری ساطوری",
           "پنیر دیپ",
         ],
+        stats: "available",
         price: 110,
       },
       {
@@ -333,6 +354,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "خیارشور",
           "کلم جعفری ساطوری",
         ],
+        stats: "available",
         price: 50,
       },
       {
@@ -346,6 +368,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "کلم جعفری ساطوری",
           "سس قارچ و پنیر",
         ],
+        stats: "available",
         price: 70,
       },
       {
@@ -359,6 +382,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "کاهو",
           "سس ساندویچ",
         ],
+        stats: "available",
         price: 70,
       },
       {
@@ -371,6 +395,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "سس مخصوص",
           "خیارشور و گوجه",
         ],
+        stats: "available",
         price: 90,
       },
       {
@@ -384,6 +409,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "خیارشور و گوجه",
           "سس قارچ و پنیر",
         ],
+        stats: "available",
         price: 110,
       },
       {
@@ -391,6 +417,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfFrenchFries,
         label: "سیب زمینی",
         ingredients: ["200 گرم سیب زمینی سرخ‌شده", "سس مخصوص"],
+        stats: "available",
         price: 80,
       },
       {
@@ -402,6 +429,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "سس مخصوص",
           "سس قارچ و پنیر",
         ],
+        stats: "available",
         price: 95,
       },
       {
@@ -413,6 +441,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "قارچ سرخ‌شده",
           "میکس پنیر",
         ],
+        stats: "sold",
         price: 110,
       },
       {
@@ -425,6 +454,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "کلم جعفری ساطوری",
           "سس ساندویچ",
         ],
+        stats: "sold",
         price: 70,
       },
       {
@@ -437,6 +467,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "پیاز کاراملی",
           "خیارشور گوجه",
         ],
+        stats: "available",
         price: 70,
       },
       {
@@ -450,6 +481,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "خیارشور گوجه",
           "سس قارچ و پنیر",
         ],
+        stats: "available",
         price: 85,
       },
     ],
@@ -468,6 +500,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "سبزیجات خورشت",
           "لوبیا پخته‌شده",
         ],
+        stats: "available",
         price: 95,
         studentPrice: 75,
       },
@@ -482,6 +515,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "سس گوجه‌فرنگی",
           "سیب‌زمینی سرخ‌شده",
         ],
+        stats: "available",
         price: 95,
         studentPrice: 75,
       },
@@ -494,6 +528,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "150 گرم جوجه کباب زعفرانی",
           "گوجه کبابی",
         ],
+        stats: "available",
         price: 110,
         studentPrice: 90,
       },
@@ -506,6 +541,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "150 گرم کوبیده گوساله",
           "گوجه کبابی",
         ],
+        stats: "available",
         price: 105,
         studentPrice: 85,
       },
@@ -519,6 +555,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
           "سس گوجه‌فرنگی",
           "خیارشور",
         ],
+        stats: "available",
         price: 105,
         studentPrice: 90,
       },
@@ -533,6 +570,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfEspressoDopin,
         label: "اسپرسو دوپین روبوستا",
         ingredients: ["عصاره قهوه 100 روبوستا"],
+        stats: "available",
         price: 40,
       },
       {
@@ -540,6 +578,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfEspressoDopin,
         label: "اسپرسو دوپین 100 عربیکا",
         ingredients: ["عصاره قهوه 100 عربیکا"],
+        stats: "available",
         price: 50,
       },
       {
@@ -547,6 +586,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfEspressoKortado,
         label: "اسپرسو کورتادو",
         ingredients: ["عصاره قهوه ترکیبی"],
+        stats: "available",
         price: 50,
       },
       {
@@ -554,6 +594,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfAmericano,
         label: "امریکانو",
         ingredients: ["عصاره قهوه", "آب جوش"],
+        stats: "available",
         price: 50,
       },
       {
@@ -561,6 +602,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfCappuccino,
         label: "کاپوچینو شیرین",
         ingredients: ["عصاره قهوه", "شیر گرم", "شکر"],
+        stats: "available",
         price: 70,
       },
       {
@@ -568,6 +610,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfCappuccino,
         label: "کاپوچینو تلخ",
         ingredients: ["عصاره قهوه", "شیر گرم"],
+        stats: "available",
         price: 60,
       },
       {
@@ -575,6 +618,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfLatte,
         label: "لاته تلخ",
         ingredients: ["عصاره قهوه", "شیر گرم"],
+        stats: "available",
         price: 60,
       },
       {
@@ -582,6 +626,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfLatte,
         label: "لاته فندوقی",
         ingredients: ["عصاره قهوه", "شیر گرم", "سیروپ فندوق"],
+        stats: "available",
         price: 70,
       },
       {
@@ -589,6 +634,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfCaramelMacchiato,
         label: "کارامل ماکیاتو",
         ingredients: ["عصاره قهوه", "شیر گرم", "کارامل و سیروپ"],
+        stats: "available",
         price: 70,
       },
       {
@@ -596,6 +642,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfMocka,
         label: "موکا",
         ingredients: ["عصاره قهوه", "شیر گرم", "سس شکلات"],
+        stats: "available",
         price: 70,
       },
     ],
@@ -609,6 +656,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfKrackTea,
         label: "کَرَک",
         ingredients: [],
+        stats: "available",
         price: 60,
       },
       {
@@ -616,6 +664,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfMasalaTea,
         label: "ماسالا",
         ingredients: [],
+        stats: "available",
         price: 60,
       },
     ],
@@ -629,6 +678,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfSaffron,
         label: "زعفران پسته",
         ingredients: [],
+        stats: "available",
         price: 60,
       },
       {
@@ -636,6 +686,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfCoconutMilk,
         label: "شیر نارگیل",
         ingredients: [],
+        stats: "available",
         price: 50,
       },
       {
@@ -643,6 +694,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfCocoaMilk,
         label: "شیر کاکائو",
         ingredients: [],
+        stats: "available",
         price: 40,
       },
       {
@@ -650,6 +702,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfMilk,
         label: "شیر",
         ingredients: [],
+        stats: "available",
         price: 20,
       },
     ],
@@ -663,6 +716,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfHotChocolate,
         label: "هات چاکلت",
         ingredients: [],
+        stats: "available",
         price: 70,
       },
       {
@@ -670,6 +724,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         image: mysfPinkChocolate,
         label: "پینک چاکلت",
         ingredients: [],
+        stats: "available",
         price: 60,
       },
     ],

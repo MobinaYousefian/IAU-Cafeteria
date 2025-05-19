@@ -29,6 +29,8 @@
   --my-color-surface-white-sf: hsl(210 60% 99%);
   --my-color-surface-muted-sf: var(--my-color-slate-200-sf);
 
+  --my-color-overlay-background-sf: hsla(222, 47%, 11%, 0.4);
+
   --my-color-text-sf: var(--my-color-slate-900-sf);
   --my-color-text-muted-sf: var(--my-color-slate-600-sf);
 

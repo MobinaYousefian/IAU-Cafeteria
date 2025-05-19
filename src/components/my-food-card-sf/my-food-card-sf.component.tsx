@@ -3,6 +3,8 @@ import Image from "next/image";
 
 import { MyFoodDataSf } from "@/lib/food/food-data.type";
 
+import sold from "@/assest/no-stock-w.png";
+
 import styles from "./my-food-card-sf.module.css";
 
 type Props = {
@@ -21,6 +23,11 @@ export default function MyFoodCardSfComponent({ item }: Props): ReactElement {
           }
         />
       </div>
+      {item.stats === "sold" && (
+        <div className={styles.sold}>
+          <Image src={sold} alt={"sold out"} />
+        </div>
+      )}
       <div className={styles.writings}>
         <div className={styles.name}>{item.label}</div>
         <p className={styles.ingredients}>

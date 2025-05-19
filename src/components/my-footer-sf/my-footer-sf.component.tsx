@@ -14,7 +14,7 @@ export default function MyFooterSfComponent(): ReactElement {
         <div>
           <span>تماس با پشتیبانی: </span>
           {supportNumbers.map((num, index) => (
-            <span dir={"ltr"}>
+            <span dir={"ltr"} key={num}>
               {index === supportNumbers.length - 1 ? num : " | " + num}
             </span>
           ))}

@@ -1,0 +1,17 @@
+.my-price-sf {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+
+  user-select: none;
+
+  .number {
+    font-weight: 500;
+    font-size: var(--my-fz-600-sf);
+  }
+
+  .currency {
+    font-size: var(--my-fz-200-sf);
+    line-height: 110%;
+  }
+}

@@ -1,6 +1,9 @@
 import { ReactElement } from "react";
 import Image from "next/image";
 
+import MyPriceSfComponent from "@/components/my-price-sf/my-price-sf.component";
+import MyStudentPriceSfComponent from "@/components/my-student-price-sf/my-student-price-sf.component";
+
 import { MyFoodDataSf } from "@/lib/food/food-data.type";
 
 import sold from "@/assest/no-stock-w.png";
@@ -35,13 +38,10 @@ export default function MyFoodCardSfComponent({ item }: Props): ReactElement {
             index < item.ingredients.length - 1 ? str + "، " : str,
           )}
         </p>
-        <div className={styles.price}>
-          <div className={styles.number}>{item.price}</div>
-          <div className={styles.currency}>
-            <div>هـــزار</div>
-            <div>تومان</div>
-          </div>
-        </div>
+        <MyPriceSfComponent price={item.price} />
+        {item.studentPrice && (
+          <MyStudentPriceSfComponent studentPrice={item.studentPrice} />
+        )}
       </div>
     </div>
   );

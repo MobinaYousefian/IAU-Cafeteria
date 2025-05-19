@@ -1,9 +1,25 @@
 .my-price-sf {
   display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: space-between;
 
   user-select: none;
+
+  .discount {
+    color: var(--my-color-primary-sf);
+
+    padding-inline-end: 0.5rem;
+  }
+
+  .crossed {
+    text-decoration: line-through;
+  }
+
+  .value {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
 
   .number {
     font-weight: 500;

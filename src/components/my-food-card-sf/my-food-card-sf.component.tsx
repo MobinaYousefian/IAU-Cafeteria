@@ -31,6 +31,12 @@ export default function MyFoodCardSfComponent({ item }: Props): ReactElement {
           <Image src={sold} alt={"sold out"} />
         </div>
       )}
+      {item.discountPercent && (
+        <div className={styles["discount-badge"]}>
+          <span>{item.discountPercent}%</span>
+          <span> تخفیف</span>
+        </div>
+      )}
       <div className={styles.writings}>
         <div className={styles.name}>{item.label}</div>
         <p className={styles.ingredients}>
@@ -38,7 +44,10 @@ export default function MyFoodCardSfComponent({ item }: Props): ReactElement {
             index < item.ingredients.length - 1 ? str + "، " : str,
           )}
         </p>
-        <MyPriceSfComponent price={item.price} />
+        <MyPriceSfComponent
+          price={item.price}
+          discountPercent={item.discountPercent}
+        />
         {item.studentPrice && (
           <MyStudentPriceSfComponent studentPrice={item.studentPrice} />
         )}

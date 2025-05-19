@@ -69,6 +69,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         ingredients: ["تخم‌مرغ", "سس گوجه‌فرنگی", "جعفری ساطوری"],
         stats: "available",
         price: 60,
+        discountPercent: 10,
       },
       {
         id: "b12",
@@ -208,6 +209,7 @@ export const MY_FOOD_DATA_SF: MyCategorySf[] = [
         ],
         stats: "available",
         price: 100,
+        discountPercent: 15,
       },
       {
         id: "p14",

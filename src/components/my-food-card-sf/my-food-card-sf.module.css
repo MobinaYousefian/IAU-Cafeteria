@@ -51,6 +51,24 @@
     }
   }
 
+  .discount-badge {
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    background-color: var(--my-color-primary-600-sf);
+    color: var(--my-color-slate-50-sf);
+
+    inline-size: max-content;
+
+    padding: 0.325rem 0.875rem;
+
+    border-start-end-radius: 999px;
+    border-end-end-radius: 999px;
+
+    font-size: var(--my-fz-300-sf);
+    font-weight: 500;
+  }
+
   .writings {
     display: flex;
     flex-direction: column;

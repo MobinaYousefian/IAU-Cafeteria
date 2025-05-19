@@ -1,13 +1,24 @@
 import { ReactElement } from "react";
-
-import styles from "./my-footer-sf.module.css";
 import Link from "next/link";
 
+import { MY_FOOTER_DATA_SF } from "@/lib/footer/footer-data";
+
+import styles from "./my-footer-sf.module.css";
+
 export default function MyFooterSfComponent(): ReactElement {
+  const supportNumbers = MY_FOOTER_DATA_SF.supportNumbers;
+
   return (
     <footer className={styles["my-footer-sf"]}>
       <div className={styles.links}>
-        <div>نصب منو</div>
+        <div>
+          <span>تماس با پشتیبانی: </span>
+          {supportNumbers.map((num, index) => (
+            <span dir={"ltr"}>
+              {index === supportNumbers.length - 1 ? num : " | " + num}
+            </span>
+          ))}
+        </div>
       </div>
       <div className={styles.copyright}>
         Developed By{" "}

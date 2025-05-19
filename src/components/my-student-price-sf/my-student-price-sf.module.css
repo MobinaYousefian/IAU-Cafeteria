@@ -1,0 +1,25 @@
+.my-student-price-sf {
+  display: flex;
+  align-items: center;
+
+  > *:not(:first-child, :last-child) {
+    margin-inline-end: 0.25rem;
+  }
+
+  color: var(--my-color-primary-950-sf);
+
+  font-size: var(--my-fz-300-sf);
+
+  margin-block-start: 0.75rem;
+
+  > img {
+    block-size: 1.635rem;
+    inline-size: 1.625rem;
+
+    object-fit: contain;
+  }
+
+  .number {
+    font-weight: 500;
+  }
+}

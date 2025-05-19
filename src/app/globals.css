@@ -29,6 +29,8 @@
   --my-color-surface-white-sf: hsl(210 60% 99%);
   --my-color-surface-muted-sf: var(--my-color-slate-200-sf);
 
+  --my-color-overlay-background-sf: hsla(222, 47%, 11%, 0.4);
+
   --my-color-text-sf: var(--my-color-slate-900-sf);
   --my-color-text-muted-sf: var(--my-color-slate-600-sf);
 
@@ -115,7 +117,7 @@ a {
 }
 
 p {
-  color: var(--my-color-text-muted-sf);
+  color: var(--my-color-slate-500-sf);
 }
 
 html {
@@ -141,7 +143,4 @@ body {
 
   min-block-size: 100vh;
   min-block-size: 100dvh;
-
-  transition: var(--my-animation-duration-slow-sf) ease-in-out;
-  transition-property: background-color, color;
 }

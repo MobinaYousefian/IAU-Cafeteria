@@ -8,6 +8,8 @@
 
   padding-block: 1rem;
 
+  text-align: center;
+
   .logotype {
     font-size: var(--my-fz-500-sf);
     font-weight: 500;

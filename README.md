@@ -8,7 +8,7 @@
 
 ## Application Overview
 
-This project (my BSc softwere project) showcases the cafeteria/restaurant menu of Islamic Azad University of Lahijan. All menu items are displayed in a single-page web application. You can also visit [IAU-Cafeteria](https://iau-cafeteria.vercel.app/) by scanning the QR code below:
+This project (my BSc software project) showcases the cafeteria/restaurant menu of Islamic Azad University of Lahijan. All menu items are displayed in a single-page web application. You can also visit [IAU-Cafeteria](https://iau-cafeteria.vercel.app/) by scanning the QR code below:
 
 <img src="https://github.com/user-attachments/assets/bf2d6b86-bce0-475d-bffc-922d95eddfdb?raw=true" width="300" />
 

@@ -1,14 +1,14 @@
-# LUA CAFETERIA MENU ☕🧁
+# IAU of Lahijan Cafeteria Menu ☕🧁
 
 ## Developed by [Mobina Yousefian](https://linkedin.com/in/mobina-yousefian)
 
-📍 Live Demo: [lau-cafeteria.vercel.app](https://lau-cafeteria.vercel.app/)
+📍 Live Demo: https://lau-cafeteria.vercel.app
 
  
 
 ## Application Overview
 
-This project showcases the cafeteria/restaurant menu of Islamic Azad University of Lahijan. All menu items are displayed in a single-page web application. You can also visit [lau-cafeteria](https://lau-cafeteria.vercel.app/) by scanning the QR code below:
+This project (my BSc softwere project) showcases the cafeteria/restaurant menu of Islamic Azad University of Lahijan. All menu items are displayed in a single-page web application. You can also visit [IAU-Cafeteria](https://lau-cafeteria.vercel.app/) by scanning the QR code below:
 
 <img src="https://github.com/user-attachments/assets/bf2d6b86-bce0-475d-bffc-922d95eddfdb?raw=true" width="300" />
 
@@ -18,7 +18,7 @@ This project showcases the cafeteria/restaurant menu of Islamic Azad University 
 
 As a university course project, this web application aims to simplify access to the university cafeteria’s menu using mobile phones.
 
-**Key Features of [lau-cafeteria](https://lau-cafeteria.vercel.app/):**
+**Key Features of [IAU-Cafeteria](https://lau-cafeteria.vercel.app/):**
 
 - Menu items are categorized to improve user navigation.
 - Each item includes a photo, ingredients list, and price.
@@ -50,7 +50,7 @@ While the project fulfills its current purpose, the following enhancements could
 - Integrating the university’s financial system to enable features like online ordering, payments, and use of student discount codes.
 - Implementing a user authentication system to allow sign-up/login, manage past orders, save favorite items, and manage a shopping cart.
 - Creating an admin dashboard for cafeteria staff to manage menu items and monitor user activity, such as order completions.
-
+- Adding English as a second language for international students
  
 
-##### For more information or to contribute, feel free to connect via [LinkedIn](https://linkedin.com/in/mobina-yousefian)
+##### For more information or to contributions, feel free to contact me via [LinkedIn](https://linkedin.com/in/mobina-yousefian)

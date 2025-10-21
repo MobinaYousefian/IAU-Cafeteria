@@ -2,13 +2,13 @@
 
 ## Developed by [Mobina Yousefian](https://linkedin.com/in/mobina-yousefian)
 
-📍 Live Demo: https://lau-cafeteria.vercel.app
+📍 Live Demo: https://iau-cafeteria.vercel.app
 
  
 
 ## Application Overview
 
-This project (my BSc softwere project) showcases the cafeteria/restaurant menu of Islamic Azad University of Lahijan. All menu items are displayed in a single-page web application. You can also visit [IAU-Cafeteria](https://lau-cafeteria.vercel.app/) by scanning the QR code below:
+This project (my BSc softwere project) showcases the cafeteria/restaurant menu of Islamic Azad University of Lahijan. All menu items are displayed in a single-page web application. You can also visit [IAU-Cafeteria](https://iau-cafeteria.vercel.app/) by scanning the QR code below:
 
 <img src="https://github.com/user-attachments/assets/bf2d6b86-bce0-475d-bffc-922d95eddfdb?raw=true" width="300" />
 
@@ -18,7 +18,7 @@ This project (my BSc softwere project) showcases the cafeteria/restaurant menu o
 
 As a university course project, this web application aims to simplify access to the university cafeteria’s menu using mobile phones.
 
-**Key Features of [IAU-Cafeteria](https://lau-cafeteria.vercel.app/):**
+**Key Features:**
 
 - Menu items are categorized to improve user navigation.
 - Each item includes a photo, ingredients list, and price.
